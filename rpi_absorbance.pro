@@ -1,4 +1,4 @@
-update=Thu 25 Feb 2016 05:39:07 PM CST
+update=Sun 28 Feb 2016 12:19:37 PM CST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=../kicad_lib/schematics
@@ -60,5 +62,3 @@ LibName30=motor_drivers
 LibName31=dc_dc_converters
 LibName32=level_shifters
 LibName33=connectors
-[general]
-version=1
