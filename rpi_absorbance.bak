@@ -797,25 +797,25 @@ F 3 "" H 3650 5250 50  0000 C CNN
 	1    3650 6200
 	1    0    0    -1  
 $EndComp
-Text Label 3100 6650 2    60   ~ 0
+Text Label 4200 6350 0    60   ~ 0
 MODE2
-Text Label 3100 6750 2    60   ~ 0
-MODE1
-Text Label 3100 6850 2    60   ~ 0
-MODE0
-Text Label 3100 6950 2    60   ~ 0
-STEP
-Text Label 3100 7050 2    60   ~ 0
-nENBL
-Text Label 4200 7150 0    60   ~ 0
-DIR
-Text Label 4200 7050 0    60   ~ 0
-DECAY
-Text Label 4200 6950 0    60   ~ 0
-nFAULT
 Text Label 4200 6450 0    60   ~ 0
-nSLEEP
+MODE1
+Text Label 3100 6650 2    60   ~ 0
+MODE0
 Text Label 4200 6750 0    60   ~ 0
+STEP
+Text Label 3100 6750 2    60   ~ 0
+nENBL
+Text Label 3100 6850 2    60   ~ 0
+DIR
+Text Label 4200 6950 0    60   ~ 0
+DECAY
+Text Label 3100 6950 2    60   ~ 0
+nFAULT
+Text Label 4200 7050 0    60   ~ 0
+nSLEEP
+Text Label 3100 7050 2    60   ~ 0
 nRESET
 Text Label 3100 5850 2    60   ~ 0
 SWITCH1
@@ -979,7 +979,7 @@ F 3 "" H 6000 6750 50  0000 C CNN
 	1    6000 6750
 	1    0    0    -1  
 $EndComp
-Text Label 4200 6350 0    60   ~ 0
+Text Label 4200 7150 0    60   ~ 0
 PERI
 $Comp
 L +12V #PWR046
@@ -1058,14 +1058,10 @@ Text Label 3100 6150 2    60   ~ 0
 GPIO10
 Text Label 3100 6250 2    60   ~ 0
 GPIO9
-Text Label 3100 6350 2    60   ~ 0
-GPIO11
 Text Label 3600 4250 0    60   ~ 0
 GPIO10
 Text Label 3600 4350 0    60   ~ 0
 GPIO9
-Text Label 3600 4450 0    60   ~ 0
-GPIO11
 $Comp
 L MUN5216DW1T1G U2
 U 1 1 56D33F0B
@@ -1441,4 +1437,7 @@ Wire Wire Line
 	2500 2100 2500 2200
 Connection ~ 3800 3750
 Connection ~ 1800 2300
+Text Label 3100 6350 2    60   ~ 0
+nHOME
+NoConn ~ 3600 4450
 $EndSCHEMATC
