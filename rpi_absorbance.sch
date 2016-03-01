@@ -367,17 +367,6 @@ $EndComp
 Text Label 3100 5550 2    60   ~ 0
 LED1
 $Comp
-L +3.3V #PWR021
-U 1 1 56CC6368
-P 2750 6050
-F 0 "#PWR021" H 2750 5900 50  0001 C CNN
-F 1 "+3.3V" H 2750 6190 50  0000 C CNN
-F 2 "" H 2750 6050 50  0000 C CNN
-F 3 "" H 2750 6050 50  0000 C CNN
-	1    2750 6050
-	0    -1   -1   0   
-$EndComp
-$Comp
 L PWR_FLAG #FLG022
 U 1 1 56CC8492
 P 900 6400
@@ -731,17 +720,6 @@ Text Label 7350 4550 0    60   ~ 0
 nRESET
 Text Notes 5100 2800 0    60   ~ 0
 Stepper Motor Driver
-$Comp
-L +3.3V #PWR040
-U 1 1 56CD7200
-P 3900 4400
-F 0 "#PWR040" H 3900 4250 50  0001 C CNN
-F 1 "+3.3V" H 3900 4540 50  0000 C CNN
-F 2 "" H 3900 4400 50  0000 C CNN
-F 3 "" H 3900 4400 50  0000 C CNN
-	1    3900 4400
-	0    1    1    0   
-$EndComp
 $Comp
 L RPI_HEADER P3
 U 1 1 56CBC8D7
@@ -1257,8 +1235,6 @@ Wire Notes Line
 	8200 5250 5000 5250
 Wire Notes Line
 	5000 5250 5000 2700
-Wire Wire Line
-	2750 6050 3100 6050
 Wire Notes Line
 	2500 4850 4750 4850
 Wire Notes Line
@@ -1335,8 +1311,6 @@ Text Label 3100 4500 2    60   ~ 0
 GPIO24
 Text Label 3100 4600 2    60   ~ 0
 GPIO25
-Wire Wire Line
-	3900 4400 3600 4400
 Text Label 3100 4300 2    60   ~ 0
 GPIO27
 Text Label 3100 5950 2    60   ~ 0
@@ -1375,4 +1349,8 @@ F 3 "" H 2050 2400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 2300 2500
+Text Label 3100 6050 2    60   ~ 0
+3.3v
+Text Label 3600 4400 0    60   ~ 0
+3.3v
 $EndSCHEMATC
