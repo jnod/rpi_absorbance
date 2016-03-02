@@ -950,11 +950,11 @@
 
   (module footprints:SOT−363 (layer F.Cu) (tedit 56D53A26) (tstamp 56D39B87)
     (at 170.18 106.68 180)
-    (path /56D33F0B)
+    (path /56D77B7D)
     (fp_text reference U2 (at 0.889 -1.016 180) (layer F.SilkS)
       (effects (font (size 0.381 0.381) (thickness 0.0762)))
     )
-    (fp_text value MUN5216DW1T1G (at 0.762 -1.651 180) (layer F.Fab)
+    (fp_text value NXP_PUMH10 (at 0.762 -1.651 180) (layer F.Fab)
       (effects (font (size 0.381 0.381) (thickness 0.0762)))
     )
     (fp_line (start 0.3 1.6) (end 0.3 1.7) (layer F.SilkS) (width 0.0762))
@@ -1486,7 +1486,7 @@
     (effects (font (size 0.381 0.381) (thickness 0.0762)))
   )
 
-  (segment (start 156.976 104.394) (end 156.976 105.922) (width 2.032) (layer F.Cu) (net 1) (status 400000))
+  (segment (start 156.976 104.394) (end 156.976 105.922) (width 2.032) (layer F.Cu) (net 1))
   (segment (start 160.274 120.65) (end 159.385 121.539) (width 2.032) (layer F.Cu) (net 1) (tstamp 56D762A6))
   (segment (start 160.274 109.22) (end 160.274 120.65) (width 2.032) (layer F.Cu) (net 1) (tstamp 56D7629F))
   (segment (start 156.976 105.922) (end 160.274 109.22) (width 2.032) (layer F.Cu) (net 1) (tstamp 56D7629B))
