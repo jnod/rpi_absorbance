@@ -1,4 +1,4 @@
-update=Wed 02 Mar 2016 05:22:17 PM CST
+update=Thu 03 Mar 2016 01:56:25 PM CST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,7 +25,7 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=../kicad_lib/schematics
+LibDir=../kicad_lib/jnod_schematics
 [eeschema/libraries]
 LibName1=power
 LibName2=device
